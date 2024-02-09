@@ -1,4 +1,13 @@
 # VideoSNS
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
 
 ## Description
 VideoSNS is a backend service designed for a video-based social networking platform. Leveraging Spring Boot, it facilitates video uploads, streaming, user authentication, and real-time interactions among users. Built with modern technologies and a focus on scalability, it aims to provide developers with a robust foundation for building a social video platform.
@@ -27,7 +36,7 @@ VideoSNS is a backend service designed for a video-based social networking platf
 
 ### Installation
 1. Clone the repository:
-git clone https://github.com/yourusername/VideoSNS.git
+git clone https://github.com/Sangkyun-Kim15/VideoSNS-Backend.git
 2. Navigate to the project directory:
 3. Build the project with Maven:
 mvn clean install
@@ -43,14 +52,6 @@ After starting the application, you can access the endpoints defined in the proj
 ## API Reference
 For a detailed description of available APIs, run the application and navigate to `/swagger-ui.html` (default path) to access the Swagger UI dashboard.
 
-## Contribution Guidelines
-We welcome contributions! Please follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch for your feature (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -am 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
-
 ## Testing
 Run the automated tests with Maven:
 mvn test
@@ -63,6 +64,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Credits
 - Your Name (and any other contributors)
-
-## Contact Information
-For any queries or further information, please contact us at email@example.com.
