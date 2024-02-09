@@ -9,5 +9,4 @@ public class VideoSnsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(VideoSnsApplication.class, args);
 	}
-
 }
