@@ -37,14 +37,45 @@ VideoSNS is a backend service designed for a video-based social networking platf
 ### Installation
 1. Clone the repository:
 git clone https://github.com/Sangkyun-Kim15/VideoSNS-Backend.git
+git clone https://github.com/Sangkyun-Kim15/VideoSNS-Frontend.git
+2. Unified Build Script:
+Create a file named unified-build.bat with the following content.
+```
+@echo off
+echo Starting unified build process...
+
+echo Building Backend...
+pushd "Your_root_directory_of_backend_project"
+call build-backend.bat
+popd
+
+echo Building Frontend...
+pushd "Your_root_directory_of_frontend_project"
+call build-frontend.bat
+popd
+
+echo Unified build process completed.
+```
+
 2. Navigate to the project directory:
-3. Build the project with Maven:
+3. Build and Run the project:
+Backend:
+```
 mvn clean install
-4. Run the application:
 mvn spring-boot:run
+```
+
+Frontend
+```
+npm install
+npm start
+```
 
 ## Configuration
 Before running the application, configure the necessary environment variables or `application.properties` file with your database credentials and any other required settings.
+
+Additionally, ensure that the `build-frontend.bat` and `build-backend.bat` scripts are correctly configured with the appropriate directory paths for your projects. These scripts are used in the unified build process and must be set up to point to the correct locations of your Backend and Frontend projects, respectively.
+
 
 ## Usage
 After starting the application, you can access the endpoints defined in the project through tools like Postman or Swagger UI (if SpringDoc OpenAPI is configured correctly).
