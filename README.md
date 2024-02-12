@@ -36,8 +36,10 @@ VideoSNS is a backend service designed for a video-based social networking platf
 
 ### Installation
 1. Clone the repository:
+```
 git clone https://github.com/Sangkyun-Kim15/VideoSNS-Backend.git
 git clone https://github.com/Sangkyun-Kim15/VideoSNS-Frontend.git
+```
 2. Unified Build Script:
 Create a file named unified-build.bat with the following content.
 ```
