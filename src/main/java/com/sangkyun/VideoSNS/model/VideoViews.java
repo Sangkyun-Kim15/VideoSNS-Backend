@@ -33,9 +33,7 @@ public class VideoViews {
 	
 	private LocalDateTime viewedAt;
 
-	public VideoViews(Long viewId, Video video, User user, LocalDateTime viewedAt) {
-		super();
-		this.viewId = viewId;
+	public VideoViews(Video video, User user, LocalDateTime viewedAt) {
 		this.video = video;
 		this.user = user;
 		this.viewedAt = viewedAt;
