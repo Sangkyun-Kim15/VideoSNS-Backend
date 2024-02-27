@@ -19,8 +19,7 @@ public class CorsConfig {
     // ApplicationContext.
     @Bean
     CorsConfigurationSource corsConfigurationSource(
-            // Injects a value from the application properties file into the allowedOrigins
-            // list.
+            // Injects a value from the application properties file into the allowedOrigins list.
             // The value comes from the property "app.cors.allowed-origins".
             @Value("${app.cors.allowed-origins}") List<String> allowedOrigins) {
 		// Creates a new instance of CorsConfiguration which will be configured and
